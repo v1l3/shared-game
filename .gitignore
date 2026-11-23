@@ -1,0 +1,57 @@
+# ---- Unreal Engine (Epic-style) ----
+Game/Binaries/
+Game/Intermediate/
+Game/Saved/
+Game/DerivedDataCache/
+Game/Build/
+Game/Plugins/*/Binaries/
+Game/Plugins/*/Intermediate/
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+
+# IDE / generated project files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj/
+*.xcworkspace/
+compile_commands.json
+
+# Compiled / packaged output
+*.pdb
+*.dll
+*.exe
+*.dylib
+*.so
+*.app
+*.ipa
+*.apk
+*.pak
+
+# ---- Blender ----
+*.blend1
+*.blend2
+*.blend@
+__pycache__/
+*.pyc
+
+# ---- Renders & scratch (put these in the shared cloud folder) ----
+Renders/
+Art/Renders/
+*.tmp
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Claude local settings ----
+.claude/settings.local.json
